@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Sofia Sans";
+  font-display: auto;
+  src: url("./src/fonts/SofiaSans[wdth\,wght].woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  }
 * {
   box-sizing: border-box;
   margin: 0;
@@ -131,4 +138,32 @@ footer[class='mobile'] {
   height: 568px;
 
   background: linear-gradient(180deg, #a1c7d4 0%, #0680aa 100%);
+}
+footer[class='mobile'] div {
+  width: 303.28px;
+  height: 64.91px;
+  position: absolute;
+  left: 8px;
+  top: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-family: 'Sofia Sans';
+  font-style: normal;
+  font-weight: 400;
+  color: #0f2d4a;
+  line-height: 140%;
+}
+footer[class='mobile'] div img {
+  width: 51px;
+  height: 56px;
+  margin-left: 8px;
+}
+.uppercase {
+  font-size: 27px;  
+  margin-left: 5px;
+}
+.lowercase {
+  font-size: 19px;
+
 }
