@@ -1,10 +1,7 @@
 @font-face {
-  font-family: "Sofia Sans";
-  font-display: auto;
-  src: url("./src/fonts/SofiaSans[wdth\,wght].woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  }
+  font-family: 'Sofia Sans';
+  src: url('opensans.woff2') format('woff2');
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -160,10 +157,9 @@ footer[class='mobile'] div img {
   margin-left: 8px;
 }
 .uppercase {
-  font-size: 27px;  
+  font-size: 27px;
   margin-left: 5px;
 }
 .lowercase {
   font-size: 19px;
-
 }
