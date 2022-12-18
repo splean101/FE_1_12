@@ -1,0 +1,83 @@
+@media (min-width: 340px) {
+  @font-face {
+    font-family: 'Sofia Sans';
+    src: url('../fonts/SofiaSans.woff2') format('woff2');
+  }
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: contents;
+  }
+  section {
+    max-width: 1400px;
+  }
+  .first-screen {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    height: 663px;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .lady {
+    position: absolute;
+    width: 572px;
+    left: 718px;
+    top: 143px;
+  }
+  header {
+    display: flex;
+    padding: 60px 0 0 80px;
+    width: 1080px;
+    height: 91px;
+  }
+  .doctor {
+    display: flex;
+    width: 425px;
+    height: 91px;
+  }
+  div.doctor div {
+    display: flex;
+    font-family: 'Sofia Sans';
+    font-size: 38px;
+    line-height: 140%;
+  }
+  .dr-txt{
+    display: flex;
+    flex-direction: column;
+  }
+  .dr-txt:last-child{
+    font-size: 28px;
+    margin-top: -10px;
+  }
+  .menu {
+    width: 350px;
+    height: 19px;
+    display: flex;
+    margin-left: 58px;
+    padding: 0px;
+    gap: 60px;
+  }
+  .mob-phone {
+    align-items: center;
+    margin: 4px 7px 0;
+    width: 174px;
+    height: 24px;
+    margin-left: 53px;
+  }
+  .mob-phone a {
+    display: flex;
+  }
+  .mob-phone img {
+    width: 24px;
+    height: 24px;
+    padding-right: 5px;
+  }
+  .mob-phone span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
